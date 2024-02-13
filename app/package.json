@@ -4,6 +4,14 @@
   "version": "1.0.0",
   "main": "src/app.js",
   "dependencies": {
-    "lib": "../lib"
+    "lib": "file:../lib"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "rimraf": "^5.0.5"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "start": "node dist/app.js"
   }
 }

@@ -1,6 +1,7 @@
 /.idea/
 
 /app/node_modules/
+/app/dist/
 
 /lib/node_modules/
 /lib/dist/

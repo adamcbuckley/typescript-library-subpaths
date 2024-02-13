@@ -3,14 +3,20 @@
   "type": "module",
   "version": "1.0.0",
   "exports": {
-    "./names": "./dist/names.js",
-    "./colors": "./dist/colors.js"
+    "./names": {
+      "default": "./dist/names.js",
+      "types": "./dist/names.d.ts"
+    },
+    "./colors": {
+      "default": "./dist/colors.js",
+      "types": "./dist/colors.d.ts"
+    }
   },
   "devDependencies": {
     "typescript": "^5.3.3",
     "rimraf": "^5.0.5"
   },
   "scripts": {
-    "build": "rimraf build && tsc"
+    "build": "rimraf dist && tsc"
   }
 }
