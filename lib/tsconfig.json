@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES6",
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    /* "jsx": "react", */
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "outDir": "dist",
+    "sourceMap": true,
+
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+
+    "declaration": true,
+    /* "composite": true, /* Emits .tsbuildinfo */
+    "declarationMap": true
+  },
+  "include": ["src"]
+}
