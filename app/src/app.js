@@ -1,3 +1,4 @@
-import { personName } from "lib";
+import { personName } from "lib/names";
+import { white } from "lib/colors";
 
-console.log(personName);
+console.log(personName, white);
